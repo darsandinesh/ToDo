@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6778bb;  
+  font-family: 'Arial', sans-serif;  
+}
+
+.app {
+  max-width: 400px; 
+  margin: 5% auto;  
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  padding: 20px; 
+}
+
+.completeToDos {
+  max-width: 400px;
+  margin: 5% auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: fixed;
+  top: 20%; /* Adjust top position */
+  right: 5%; /* Adjust right position */
+  transform: translateY(-50%); /* Center vertically */
+}
+
+
+.app .mainHeading h1 {
+  text-align: center;
+  color: #333; 
+  margin-bottom: 20px; 
+}
+
+.app .input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.app .input input {
+  flex: 1;  
+  height: 40px;  
+  padding: 10px; 
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  background-color: #f9f9f9;  
+}
+
+.app .input i {
+  cursor: pointer;
+  color: #666; 
+  transition: color 0.3s ease; 
+}
+
+.app .input i:hover {
+  color: #333;  
+}
+
+.app .todos {
+  list-style: none;
+}
+
+.app .todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9; 
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px; 
+}
+
+.app .todo p {
+  margin-left: 10px; 
+  color: #333; 
+}
+
+.app .todo .actions {
+  display: flex;
+  align-items: center;
+}
+
+.app .todo .actions i {
+  cursor: pointer;
+  color: #999;   margin-left: 10px;
+  transition: color 0.3s ease; 
+}
+
+.app .todo .actions i:hover {
+  color: #666;  
+}
+
+

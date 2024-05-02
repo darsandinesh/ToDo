@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.app {
+    margin: 5% auto;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.appHeading h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input input {
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.addButton {
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.viewTodo, .completeToDo {
+    margin-top: 20px;
+}
+
+.todoItem, .completeTodoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todoItem input[type="radio"] {
+    margin-right: 10px;
+}
+
+.todoItem label, .completeTodoItem label {
+    font-size: 18px;
+    color: #333;
+}
+
+.deleteButton {
+    background-color: #ff3d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-left: auto;
+    transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+    background-color: #d32f00;
+}
+.completeToDo {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.completeToDo .appHeading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.completeTodoList {
+    display: flex;
+    flex-direction: column;
+}
+
+.completeTodoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.completeTodoItem p {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.completeTodoItem button {
+    background-color: #ff3d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.completeTodoItem button:hover {
+    background-color: #d32f00;
+}
+
